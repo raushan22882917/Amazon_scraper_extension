@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Scraper Extension</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <textarea id="urlInput" placeholder="Paste Amazon URLs here..." rows="10"></textarea>
+  <button id="scrapeButton">Scrape Data</button>
+  <div id="loader" class="hidden">Loading...</div>
+  <ul class="instructions">
+    <li>Paste Amazon product URLs into the text area.</li>
+    <li>Ensure URLs are separated by commas.</li>
+    <li>Click the "Scrape Data" button to start scraping.</li>
+    <li>Wait for the data to load (please be patient).</li>
+    <li>View the scraped data in the display area below.</li>
+  </ul>
+  <pre id="dataDisplay"></pre>
+  <script src="popup.js"></script>
+</body>
+</html>
